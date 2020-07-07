@@ -1,0 +1,8 @@
+export PATH=$PATH:'/home/yyu/opt/MATLAB/R2020a/bin/'
+
+nohup matlab -nodesktop -r "mcrSplit(12,'mcrInputSS.mat'); quit force;"
+wait
+
+chmod 777 wecSimScript
+
+./wecSimScript > wecSimOut.log 

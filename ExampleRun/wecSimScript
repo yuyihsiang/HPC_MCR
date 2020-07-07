@@ -1,0 +1,22 @@
+cd ../PM_OptCd_All_1 
+nohup matlab -nodesktop -r "wecSimMCR; quit force;" > wecSimoutput.log & 
+cd ../PM_OptCd_All_2 
+nohup matlab -nodesktop -r "wecSimMCR; quit force;" > wecSimoutput.log & 
+cd ../PM_OptCd_All_3 
+nohup matlab -nodesktop -r "wecSimMCR; quit force;" > wecSimoutput.log & 
+cd ../PM_OptCd_All_4 
+nohup matlab -nodesktop -r "wecSimMCR; quit force;" > wecSimoutput.log & 
+cd ../PM_OptCd_All_5 
+nohup matlab -nodesktop -r "wecSimMCR; quit force;" > wecSimoutput.log & 
+cd ../PM_OptCd_All_6 
+nohup matlab -nodesktop -r "wecSimMCR; quit force;" > wecSimoutput.log & 
+cd ../PM_OptCd_All_7 
+nohup matlab -nodesktop -r "wecSimMCR; quit force;" > wecSimoutput.log & 
+cd ../PM_OptCd_All_8 
+nohup matlab -nodesktop -r "wecSimMCR; quit force;" > wecSimoutput.log & 
+cd ../PM_OptCd_All_9 
+nohup matlab -nodesktop -r "wecSimMCR; quit force;" > wecSimoutput.log & 
+cd ../PM_OptCd_All_10 
+nohup matlab -nodesktop -r "wecSimMCR; quit force;" > wecSimoutput.log & 
+wait 
+cd ../PM_OptCd_All 

@@ -1,0 +1,28 @@
+
+WEC-Sim Read Input File ...   
+Elapsed time is 0.830794 seconds.
+
+WEC-Sim Pre-processing ...   
+	Infinite water depth specified in BEM, "waves.waterDepth" set to 200m for vizualisation.
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mrdivide')" style="font-weight:bold"> / </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('waveClass/irregWaveSpectrum', '/Users/yyu/Documents/GitHub/WEC-Sim/source/objects/waveClass.m', 629)" style="font-weight:bold">waveClass/irregWaveSpectrum</a> (<a href="matlab: opentoline('/Users/yyu/Documents/GitHub/WEC-Sim/source/objects/waveClass.m',629,0)">line 629</a>)
+                    B_PM = (5/4)*(1/Tp)^(4);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('waveClass/waveSetup', '/Users/yyu/Documents/GitHub/WEC-Sim/source/objects/waveClass.m', 247)" style="font-weight:bold">waveClass/waveSetup</a> (<a href="matlab: opentoline('/Users/yyu/Documents/GitHub/WEC-Sim/source/objects/waveClass.m',247,0)">line 247</a>)
+                    obj.irregWaveSpectrum(g,rho)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wecSim', '/Users/yyu/Documents/GitHub/WEC-Sim/source/wecSim.m', 143)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('/Users/yyu/Documents/GitHub/WEC-Sim/source/wecSim.m',143,0)">line 143</a>)
+waves.waveSetup(body(1).hydroData.simulation_parameters.w, body(1).hydroData.simulation_parameters.water_depth,
+simu.rampTime, simu.dt, simu.maxIt, simu.g, simu.rho,  simu.endTime);
+} 
+clear all
+matlab.internal.language.introspective.errorDocCallback('mrdivide')
+wecSimInputFile
+WEC-Sim: An open-source code for simulating wave energy converters
+Version: 4.0
+
+Initializing the Simulation Class...
+	Case Dir: /Users/yyu/Desktop/RM3 
+wecSim
